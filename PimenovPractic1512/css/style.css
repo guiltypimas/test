@@ -1,0 +1,113 @@
+body{
+    margin: auto;
+    padding: auto;
+    width: 1440px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+a:hover{
+    cursor: pointer;
+}
+/* main */
+
+.main-section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between  ;
+    height: 628px;
+    background-color: rgb(255, 255, 255);
+}
+.main-content{
+    margin-top: 125px;
+    margin-left: 214px;
+    
+}
+.main-content-second{
+    margin-top: 80px;
+    margin-right: 236px;
+    overflow: hidden;
+}
+.img-main{
+    width: 192px;
+    height: 64px;
+}
+.h-main{
+    margin-top: 11px;
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+}
+.p-main{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.block-buttons-main{
+    display: flex;
+    
+}
+.button-main{
+    text-align: center;
+    width: 148px;
+    height: 40px;
+    background-color: #222222;
+    color: white;
+    border-radius: 5px;
+    line-height: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+
+    margin-right: 4px;
+    margin-left:5px;
+}
+.button-main:active {
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 0 2px #666;
+    transform: translateY(0.5px);
+}
+.button-main:hover{
+    cursor: pointer;
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #F2F2F2;
+    height: 427px;
+    
+}
+.footer-block{
+    margin-top: 100px;
+}
+.socials{
+    /* padding-right: 22px; */
+}
+.footer-socials{ 
+    margin-left: 20px;
+}
+.footer-socials-facebook{
+    margin-left:26px;
+    margin-right: 4px;
+}
+.h-footer{
+    color: #222222;
+}
+.footer-text{
+    display: flex;
+    margin-top: 25px;
+    color: #B1B1B1;
+}
+.footer-links{
+    color: #666666;
+}
